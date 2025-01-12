@@ -1,0 +1,20 @@
+docker = false
+interfaces = []
+
+[server]
+host = "127.0.0.1"
+port = 8990
+
+[features]
+portforward = false
+block_badtcp = false
+
+[whitelist]
+enabled = false
+rules = []
+
+[blacklist]
+enabled = false
+rules = []
+
+[iplists]
